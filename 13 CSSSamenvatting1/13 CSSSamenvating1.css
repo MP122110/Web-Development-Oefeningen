@@ -1,0 +1,29 @@
+body{
+    background: gray;
+}
+header{
+    background: red;
+    color: white;
+}
+nav{
+    background: green;
+    color: white;
+    height: 400px;
+    width: 100px;
+    float: left;
+}
+article{
+    background: white;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+main{
+    background: yellow;
+    height: 400px;
+}
+footer{
+    clear: left;
+    background: blue;
+    color: white;
+    margin-top: 20px; 
+}
