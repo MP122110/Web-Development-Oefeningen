@@ -1,51 +1,59 @@
-body{
-    background: white;
+body {
     font-family: Verdana;
-    background-image: url(images/Blauw.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+    background-image: url(images/BlauwKlein.jfif);
+    background-repeat: repeat;
+    background-size: auto;
 }
-nav{
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80em;
+    background-color: lightblue;
+}
+
+.row {
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+nav {
     color: #f4f4f4;
     background: #2c3e50;
     height: 70px;
     border: 5px solid #959da64b;
-}
-nav div{
-    float: left;
-    font-size: 18pt;
-    margin-left: 20px;
-    margin-right: 20px;
-    line-height: 70px;
     text-align: center;
+    line-height: 70px;
+
 }
-nav div a{
+
+nav div {
+    font-size: 18pt;
+}
+
+nav div a {
     text-decoration: none;
     color: #f4f4f4;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
 }
-nav div a:hover{
+
+nav div a:hover {
     text-decoration: underline;
     color: #3498db;
 }
-nav div a.active{
+
+nav div a.active {
     text-decoration: none;
     color: #3498db;
 }
-main{
-    height: 450px;
+
+main {
+    height: 700px;
 }
-h2{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-p{
-    line-height: 20px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 13pt;
-}
-footer{
+
+footer {
     background: #2c3e50;
     color: #f4f4f4;
     font-size: 11pt;
@@ -53,19 +61,62 @@ footer{
     border: 5px solid #959da64b;
     text-align: center;
 }
-th{
-    width: auto;
+
+table {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 35px;
+    border-collapse: collapse;
+    box-shadow: 0 0 40px darkblue, 0 0 80px lightblue;
+}
+
+.tableopleidingen {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
     padding: 10px;
+    width: auto;
     border: 4px solid #959da64b;
     background: #2c3e50;
     color: white;
     text-align: center;
 }
-td{
+
+td {
+    padding: 10px;
     width: 200px;
-    background: lightblue;
     font-size: 14pt;
-    padding: 5px;
-    border: 2px solid ;
+    border: 2px solid;
     text-align: center;
+    background: white;
+}
+
+aside {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+img {
+    height: 400px;
+}
+
+.shadowbox {
+    border-collapse: collapse;
+    box-shadow: 0 0 40px rgb(0, 60, 139), 0 0 80px lightblue;
+}
+
+h2 {
+    margin-left: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+p {
+    line-height: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 14pt;
 }
