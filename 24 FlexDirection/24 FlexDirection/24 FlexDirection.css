@@ -1,17 +1,28 @@
 section {
+    background-color: white;
+    margin: 5px;
+    padding: 15px;
 }
 
 div {
+    display: flex;
+    background-color: blue;
+    margin: 10px 0;
 }
 
 .container-row {
+    flex-direction: row; /*Row is altijd default als flex-direction!!*/
 }
 
 .container-row-reverse {
+
+    flex-direction: row-reverse;
 }
 
 .container-column {
+    flex-direction: column;
 }
 
 .container-column-reverse {
+    flex-direction: column-reverse;
 }
