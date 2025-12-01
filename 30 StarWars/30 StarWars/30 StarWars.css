@@ -1,9 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family:  Helvetica;
+    background-color: black;
+    color: white;
+}
 /*Hoofding (banner)*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
 
+#banner {
+    height: 90%;
+}
 /*Navigatiebalk*/
+nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid white 1px;
+}
 
+nav a {
+    display: block;
+    margin: 10px 20px;
+    font-size: 18pt;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #333333;
+    border-radius: 20px;
+}
 /*Main + Sections*/
+main {
+    display: flex;
+}
+
+.faction-box {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /*Themakleuren van de sections via id's*/
+
 
 /*Footer*/

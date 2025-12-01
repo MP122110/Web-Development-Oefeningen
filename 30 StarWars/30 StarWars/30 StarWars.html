@@ -3,41 +3,106 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Starwars</title>
+        <link rel="stylesheet" href="30 StarWars.css">
     </head>
     <body>
         <!--Hierin plaats je de banner-->
         <header>
+            <img id="banner" src="images/starwarslogo.png" alt="Logo">
         </header>
         
         <!--Navigatiebalk-->
         <nav>
-            <a>Video</a>
-            <a>Film</a>
-            <a>Series</a>
-            <a>Games</a>
-            <a>Collectables</a>
+            <a href="#">Video</a>
+            <a href="#">Film</a>
+            <a href="#">Series</a>
+            <a href="#">Games</a>
+            <a href="#">Collectables</a>
         </nav>
         
         <main>
             <!--Galactic Empire-->
-            <section>
+            <section class="faction-box" id=" galactic-empire">
+
+                <h1>Galactic Empire</h1>
+
+                <figure>
+                    <img class="Logo" src="images/galactic-empire.png" alt="galactic-empire">
+                </figure>
+
+                <ul>
+                    <li>Gecentraliseerde macht</li>
+                    <li>Militaire dominantie</li>
+                    <li>Opressie</li>
+                </ul>
+
             </section>
             
             <!--Separatist Alliance-->
-            <section>
+            <section class="faction-box" id="separatist-alliance">
+
+                <h1>Separist Alliance</h1>
+
+                <figure>
+                    <img class="Logo" src="images/separatist-alliance.png" alt="separatist-alliance">
+                </figure>
+
+                <ol>
+                    <li>Droid leger</li>
+                    <li>Oppositie tegen de republiek</li>
+                    <li>Invloed op handel</li>
+                </ol>
+
             </section>
             
             <!--Galactic Republic-->
-            <section>
+            <section class="faction-box" id="galactic-republic">
+
+                <h1>Galactic Republic</h1>
+
+                <figure>
+                    <img class="Logo" src="images/galactic-republic.png" alt="galactic-republic">
+                </figure>
+
+                <table>
+                    <tr>
+                        <th>Naam</th>
+                        <th>Functie</th>
+                    </tr>
+                    <tr>
+                        <td>Kanselier Palpatine</td>
+                        <td>Opperkanselier van de Galactische Republiek</td>
+                    </tr>
+                    <tr>
+                        <td>Grandmaster Yoda</td>
+                        <td>Hoofd van de Jedi Raad</td>
+                    </tr>
+                </table>
+
             </section>
             
             <!--Rebel Alliance-->
-            <section>
+            <section class="faction-box" id="Rebel-Alliance">
+
+                <h1>Rebel Alliance</h1>
+
+                <figure>
+                    <img class="Logo" src="images/rebel-alliance.png" alt="Rebel Alliance">
+                </figure>
+
+                <ul>
+                    <li>Opstand tegen Galactic Empire</li>
+                    <li>Symbool van hoop</li>
+                    <li>Diverse coalitie</li>
+                </ul>
+
             </section>
         </main>
         
         <!--Footer-->
         <footer>
+            Sammenvattende Oefeningen Webontwikkeling &copy; Michele Pascale
         </footer>
     </body>
 </html>
